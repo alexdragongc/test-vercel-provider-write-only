@@ -16,6 +16,7 @@ terraform {
 resource "vercel_project" "my_project" {
   name                         = var.project_name
   node_version                 = "22.x"
+  framework                    = "express"
   auto_assign_custom_domains   = true
   preview_deployments_disabled = true
   git_repository = {
