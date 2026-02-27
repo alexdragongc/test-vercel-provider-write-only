@@ -1,0 +1,14 @@
+{
+  "name": "test-vercel-provider-write-only",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch ./src/devServer.js",
+    "dev": "node --watch ./src/devServer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
