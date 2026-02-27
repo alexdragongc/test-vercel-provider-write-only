@@ -18,12 +18,12 @@ resource "vercel_project" "my_project" {
   node_version                 = "22.x"
   auto_assign_custom_domains   = true
   preview_deployments_disabled = true
-  # git_repository = {
-  #   production_branch = "main"
-  #   repo              = "alexdragongc/test-vercel-provider-write-only"
-  #   type              = "github"
-  #   deploy_hooks      = null
-  # }
+  git_repository = {
+    production_branch = "main"
+    repo              = "alexdragongc/test-vercel-provider-write-only"
+    type              = "github"
+    deploy_hooks      = null
+  }
 }
 
 
